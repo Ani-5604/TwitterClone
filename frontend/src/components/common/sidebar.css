@@ -1,0 +1,118 @@
+/* Sidebar container */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  max-width: 16rem; /* Adjust based on screen size */
+  border-right: 1px solid #388cec;
+  background-color: #4395f3;
+  color: #fff;
+  padding: 1rem;
+}
+
+/* Twitter Icon container */
+.sidebar__twitter-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.sidebar__twitter-icon:hover {
+  background-color: #2d8feb;
+  border-radius: 50%;
+}
+
+/* Sidebar links */
+.sidebar__link {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1.5rem;
+  margin: 0.25rem 0;
+  color: inherit;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+.sidebar__link:hover {
+  background-color: #3b86b8;
+}
+.sidebar__icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.sidebar__text {
+  font-size: 1rem;
+  font-weight: 500;
+  display: none; /* Hidden on small screens */
+}
+@media (min-width: 768px) {
+  .sidebar__text {
+      display: inline; /* Visible on medium and larger screens */
+  }
+}
+
+/* Language selector */
+.sidebar__language-selector {
+  margin-top: auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Profile and Logout Section */
+.sidebar__profile-section {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-top: 1px solid #3f8ccc;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.sidebar__profile-section:hover {
+  background-color: #2468ce;
+}
+.sidebar__profile-avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 0.75rem;
+  border-radius: 50%;
+}
+.sidebar__profile-info {
+  display: none;
+  flex-direction: column;
+}
+.sidebar__profile-name {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.sidebar__profile-username {
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+@media (min-width: 768px) {
+  .sidebar__profile-info {
+      display: flex;
+  }
+}
+
+/* Menu and Menu Items */
+.menu__item {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  color: #e5e7eb;
+  transition: background 0.3s, color 0.3s;
+}
+.menu__item:hover {
+  background-color: #4f98ff;
+  color: #fff;
+}
+.menu__item-icon {
+  color: #3b82f6;
+  margin-right: 0.5rem;
+}

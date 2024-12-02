@@ -1,0 +1,191 @@
+/* Sidebar container */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 280px;
+  padding-top: 10px;
+  border-right: 1px solid #e1e8ed; /* Light gray border */
+}
+
+/* Sidebar logo */
+.sidebar__logo {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Sidebar link styling */
+.sidebar__link {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  color: black; /* Text color */
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 30px; /* Rounded effect */
+  transition: background-color 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+}
+
+.sidebar__link:hover {
+  background-color: var(--sidebar-hover-bg); /* Light blue background on hover */
+  color: var(--twitter-color); /* Twitter blue on hover */
+}
+
+/* Active state for the current page */
+.sidebar__link--active {
+  background-color: var(--sidebar-hover-bg); /* Active background */
+  color: var(--twitter-color);
+}
+
+/* Sidebar icon size */
+.sidebar__icon {
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+/* Sidebar tweet button */
+.sidebar__tweet {
+  background-color: var(--twitter-color);
+  color: white;
+  border: none;
+  padding: 10px 0;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.sidebar__tweet:hover {
+  background-color: #1a8cd8; /* Slightly darker blue on hover */
+}
+.sidebarOptions {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.sidebar {
+  border-right: 1px solid var(--twitter-background);
+  flex: 0.3;
+  position: inherit;
+  min-width: 150px;
+  margin-top: 20px;
+  padding-right: 20px;
+  overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar__twitterIcon {
+  color: var(--twitter-color);
+  font-size: 35px !important;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.sidebar__tweet {
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 10px !important;
+}
+.sidebarOptions:hover {
+  background-color: #4dadf1;
+  border-radius: 30px;
+  color: var(--twitter-color);
+  transition: color 100ms ease-out;
+}
+
+.sidebarOptions>.MuiSvgIcon-root {
+  padding: 10px 15px;
+}
+
+.sidebarOptions>h2 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.done__icon {
+  color: var(--twitter-color) !important;
+}
+
+@media screen and (max-width:688px) {
+  .sidebar__tweet {
+    display: none;
+  }
+}/* Example for a sidebar hover effect */
+.sidebarOption:hover {
+  background-color: #e8f5fe;  /* Light blue background for hover */
+  color: var(--twitter-color); /* Twitter blue color */
+}
+/* Sidebar option styling */
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 100ms ease, color 100ms ease;
+}
+
+.sidebarOption:hover {
+  background-color: #e8f5fe;  /* Light blue background for hover */
+  color: var(--twitter-color); /* Twitter blue on hover */
+}
+
+.sidebarOption--active {
+  background-color: #e8f5fe;
+  color: var(--twitter-color); /* Active state color */
+}
+
+.sidebarOption__icon {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.sidebarOption__text {
+  font-weight: 600;
+  font-size: 18px;
+}
+.sidebar {
+  border-right: 1px solid var(--twitter-background);
+  flex: 0.3;
+  position: inherit;
+  min-width: 150px;
+  margin-top: 20px;
+  padding-right: 20px;
+  overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar__twitterIcon {
+  color: var(--twitter-color);
+  font-size: 35px !important;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.sidebar__tweet {
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 10px !important;
+}

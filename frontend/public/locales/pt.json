@@ -1,0 +1,35 @@
+{
+    "loading": "Carregando...",
+    "profile": {
+      "userNotFound": "Usuário não encontrado",
+      "memberSince": "Membro desde",
+      "following": "Seguindo",
+      "followers": "Seguidores",
+      "editProfile": "Editar perfil",
+      "follow": "Seguir",
+      "unfollow": "Deixar de seguir",
+      "update": "Atualizar",
+      "updating": "Atualizando...",
+      "posts": "Postagens",
+      "likes": "Curtidas",
+      "bio": "Biografia",
+      "link": "Link",
+      "changeLanguage": "Mudar idioma",
+      "verifyPhoneNumber": "Verificar número de telefone",
+      "enterPhoneNumber": "Digite o número de telefone",
+      "pleaseVerifyYourPhoneFirst": "Por favor, verifique seu telefone primeiro para mudar o idioma",
+      "sending": "Enviando...",
+      "youWillReceiveEmailForPhoneVerification": "Você receberá um e-mail em até 2 dias para verificar seu número de telefone.",
+      "provideYourPhoneNumber": "Forneça seu número de telefone para receber um OTP.",
+      "enterValidPhoneNumber": "Digite um número de telefone válido de 10 dígitos",
+      "verificationEmailSent": "Um e-mail de verificação será enviado em breve.",
+      "postMustContainTextOrMedia": "A postagem deve conter texto ou mídia.",
+      "postTimeLimit": "Você só pode postar entre as 10:00 AM e 10:30 AM, pois você não tem ninguém para seguir.",
+      "postLimitReached": "Você só pode postar 2 vezes ao dia se tiver entre 2 e 10 seguidores. Você atingiu seu limite para hoje.",
+      "pleaseVerifyEmailToPostAudio": "Por favor, verifique seu e-mail para postar conteúdo de áudio.",
+      "postCreatedSuccessfully": "Postagem criada com sucesso",
+      "somethingWentWrong": "Algo deu errado",
+      "logOut": "Sair"
+    }
+  }
+  

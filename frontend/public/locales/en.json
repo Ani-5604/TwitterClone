@@ -1,0 +1,35 @@
+{
+    "loading": "Loading...",
+    "profile": {
+      "userNotFound": "User not found",
+      "memberSince": "Member since",
+      "following": "Following",
+      "followers": "Followers",
+      "editProfile": "Edit Profile",
+      "follow": "Follow",
+      "unfollow": "Unfollow",
+      "update": "Update",
+      "updating": "Updating...",
+      "posts": "Posts",
+      "likes": "Likes",
+      "bio": "Bio",
+      "link": "Link",
+      "changeLanguage": "Change Language",
+      "verifyPhoneNumber": "Verify Phone Number",
+      "enterPhoneNumber": "Enter Phone Number",
+      "pleaseVerifyYourPhoneFirst": "Please verify your phone first to change the language",
+      "sending": "Sending...",
+      "youWillReceiveEmailForPhoneVerification": "You will receive an email within 2 days to verify your phone number.",
+      "provideYourPhoneNumber": "Provide your phone number to receive an OTP.",
+      "enterValidPhoneNumber": "Enter a valid 10-digit phone number",
+      "verificationEmailSent": "A verification email will be sent shortly.",
+      "postMustContainTextOrMedia": "Post must contain either text or media.",
+      "postTimeLimit": "You can only post between 10:00 AM and 10:30 AM since you have no following person.",
+      "postLimitReached": "You can only post 2 times a day if you have 2 to 10 followers. You've reached your limit for today.",
+      "pleaseVerifyEmailToPostAudio": "Please verify your email to post audio content.",
+      "postCreatedSuccessfully": "Post created successfully",
+      "somethingWentWrong": "Something went wrong",
+      "logOut": "Log out"
+    }
+  }
+  
