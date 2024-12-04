@@ -1,0 +1,407 @@
+.login-container {
+    display: flex;
+    flex: 1;
+    width: 100vw;
+
+
+}
+
+.form-container {
+    flex: 1;
+    padding: 50px;
+    margin: 10px;
+    /* margin-left: -50px; */
+    align-content: center;
+
+width: 800px;
+
+}
+.input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.icon-button {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.icon-button:hover {
+  color: #000;
+}
+
+.icon-button:focus {
+  outline: none;
+}
+
+.form-box {
+    justify-content: left;
+    align-items: inherit;
+    grid-row: auto;
+}
+
+.Twitter-img {
+    color: skyblue;
+    max-width: 50%;
+
+}
+
+.input-form {
+    width: 20px;
+
+}
+
+.heading,
+h1 {
+    font-size: 50px
+}
+
+.heading1,
+h3 {
+    font-size: 35px;
+
+    justify-content: end
+}
+
+
+
+
+
+input {
+    display: grid;
+    margin-bottom: 1px;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+
+}
+
+.email,
+.password {
+
+    background-color: #000000;
+    width: 70%;
+    border-radius: 8px;
+    padding: 14px;
+    border: none;
+    outline: none;
+}
+
+.display-name {
+
+
+    background-color: #000000;
+    width: 70%;
+    border-radius: 8px;
+    padding: 14px;
+    border: none;
+    outline: none;
+
+}
+
+
+
+
+.btn-login {
+    padding: 7px;
+}
+
+.btn {
+    background-color: rgb(92, 199, 241);
+    width: 75%;
+    margin-right: 20px;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.g-btn {
+    border: 1px solid;
+    height: 40px !important;
+    line-height: 40px !important;
+    font-size: 15px !important;
+    width: 70% !important;
+    margin: 10px;
+}
+
+.google-button {
+    margin-top: 5%;
+}
+
+.g-btn>div,
+.g-btn>div>svg {
+    height: 30px !important;
+
+}
+
+.errorMessage {
+    color: red;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.signUpText>Link {
+    text-decoration: none;
+    color: var(--twitter-color) !important;
+
+}
+
+@media screen and (max-width:500px) {
+    .login-container {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+
+    }
+
+    .form-container {
+        padding: 10px;
+    }
+
+
+
+
+  
+}.login-page-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #121212;
+	color: white;
+}
+
+.image-container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    width: 300px;
+    height: 600px;
+}
+
+.image {
+	
+	border-radius: 8px;
+}
+
+.form-section {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #1a1a1a;
+	padding: 2rem;
+	border-radius: 8px;
+}
+
+.icon-twitter {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.heading {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 1.5rem;
+}
+
+.form {
+	width: 100%;
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.input-container {
+	display: flex;
+	align-items: center;
+	padding: 0.75rem;
+	border-radius: 4px;
+	background-color: #000000;
+	color: white;
+}
+
+.input-field {
+	flex-grow: 1;
+	padding: 0.5rem;
+	border: none;
+	background-color: transparent;
+	color: white;
+}
+
+.input-field::placeholder {
+	color: #888;
+}
+
+.btn-login {
+	padding: 0.75rem;
+	background-color: skyblue;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+	background-color: #1a8cd8;
+}
+
+.google-btn {
+	margin-top: 1rem;
+}
+
+.signup-prompt {
+	margin-top: 2rem;
+	text-align: center;
+	color: white;
+}
+
+.btn-signup {
+	background-color: transparent;
+	color: skyblue;
+	border: 1px solid skyblue;
+	border-radius: 4px;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.btn-signup:hover {
+	background-color: skyblue;
+	color: white;
+}
+
+.error-message {
+	color: #ff6b6b;
+}
+.forgot-password-link {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #1d9bf0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .forgot-password-link:hover {
+    color: #007acc;
+  }
+  
+  .forgot-password-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .modal-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .modal-subtext {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .input-container input {
+    flex: 1;
+    border: none;
+    color: #000000;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  
+  .input-container svg {
+    margin-right: 0.5rem;
+    color: #888;
+  }
+  
+  .btn-submit {
+    background: #1d9bf0;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background: #007acc;
+  }
+  
+  .btn-close {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #888;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .btn-close:hover {
+    color: #555;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

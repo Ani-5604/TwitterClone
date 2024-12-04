@@ -1,0 +1,35 @@
+{
+    "loading": "लोड हो रहा है...",
+    "profile": {
+      "userNotFound": "उपयोगकर्ता नहीं मिला",
+      "memberSince": "सदस्यता से",
+      "following": "अनुयायी",
+      "followers": "अनुयायी",
+      "editProfile": "प्रोफ़ाइल संपादित करें",
+      "follow": "अनुकरण करें",
+      "unfollow": "अनुकरण रद्द करें",
+      "update": "अपडेट करें",
+      "updating": "अपडेट हो रहा है...",
+      "posts": "पोस्ट",
+      "likes": "लाइक",
+      "bio": "बायो",
+      "link": "लिंक",
+      "changeLanguage": "भाषा बदलें",
+      "verifyPhoneNumber": "फोन नंबर सत्यापित करें",
+      "enterPhoneNumber": "फोन नंबर दर्ज करें",
+      "pleaseVerifyYourPhoneFirst": "कृपया भाषा बदलने से पहले अपने फोन नंबर की पुष्टि करें",
+      "sending": "भेजा जा रहा है...",
+      "youWillReceiveEmailForPhoneVerification": "आपको अपने फोन नंबर की सत्यापना के लिए 2 दिन के अंदर एक ईमेल मिलेगा।",
+      "provideYourPhoneNumber": "OTP प्राप्त करने के लिए अपना फोन नंबर प्रदान करें।",
+      "enterValidPhoneNumber": "10 अंकों का वैध फोन नंबर दर्ज करें",
+      "verificationEmailSent": "सत्यापन ईमेल जल्द ही भेजा जाएगा।",
+      "postMustContainTextOrMedia": "पोस्ट में टेक्स्ट या मीडिया होना चाहिए।",
+      "postTimeLimit": "चूंकि आपके पास कोई अनुसरण करने वाला व्यक्ति नहीं है, आप केवल 10:00 AM से 10:30 AM तक पोस्ट कर सकते हैं।",
+      "postLimitReached": "यदि आपके पास 2 से 10 अनुयायी हैं, तो आप दिन में केवल 2 बार पोस्ट कर सकते हैं। आपने आज का सीमा पार कर लिया है।",
+      "pleaseVerifyEmailToPostAudio": "ऑडियो कंटेंट पोस्ट करने के लिए कृपया अपना ईमेल सत्यापित करें।",
+      "postCreatedSuccessfully": "पोस्ट सफलतापूर्वक बनाई गई",
+      "somethingWentWrong": "कुछ गलत हुआ",
+      "logOut": "लॉग आउट"
+    }
+  }
+  

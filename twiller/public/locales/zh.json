@@ -1,0 +1,35 @@
+{
+    "loading": "加载中...",
+    "profile": {
+      "userNotFound": "用户未找到",
+      "memberSince": "成员自",
+      "following": "关注",
+      "followers": "粉丝",
+      "editProfile": "编辑个人资料",
+      "follow": "关注",
+      "unfollow": "取消关注",
+      "update": "更新",
+      "updating": "更新中...",
+      "posts": "帖子",
+      "likes": "喜欢",
+      "bio": "简介",
+      "link": "链接",
+      "changeLanguage": "更改语言",
+      "verifyPhoneNumber": "验证电话号码",
+      "enterPhoneNumber": "输入电话号码",
+      "pleaseVerifyYourPhoneFirst": "请先验证您的电话号码才能更改语言",
+      "sending": "发送中...",
+      "youWillReceiveEmailForPhoneVerification": "您将在2天内收到一封验证电话号码的电子邮件。",
+      "provideYourPhoneNumber": "提供您的电话号码以接收OTP。",
+      "enterValidPhoneNumber": "输入有效的10位电话号码",
+      "verificationEmailSent": "验证邮件将很快发送。",
+      "postMustContainTextOrMedia": "帖子必须包含文本或媒体。",
+      "postTimeLimit": "由于您没有关注人，您只能在10:00 AM到10:30 AM之间发布。",
+      "postLimitReached": "如果您有2到10个粉丝，您每天只能发布2次。今天您已经达到了发布限制。",
+      "pleaseVerifyEmailToPostAudio": "请验证您的电子邮件以发布音频内容。",
+      "postCreatedSuccessfully": "帖子创建成功",
+      "somethingWentWrong": "出了点问题",
+      "logOut": "登出"
+    }
+  }
+  
