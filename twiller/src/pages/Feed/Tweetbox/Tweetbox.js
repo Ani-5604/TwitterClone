@@ -14,8 +14,7 @@ import { useTranslation } from "react-i18next";
 const Tweetbox = () => {
   const [post, setPost] = useState("");
   const [imageurl, setImageUrl] = useState("");
-  const [audioUrl, setAudioUrl] = useState("");
-  const [videoUrl, setVideoUrl] = useState(""); // Added state for video
+  const [audioUrl, setAudioUrl] = useState("")  const [videoUrl, setVideoUrl] = useState(""); // Added state for video
   const [isLoading, setIsLoading] = useState(false);
   const [isRecording, setIsRecording] = useState(false);
   const [audioBlob, setAudioBlob] = useState(null);
@@ -39,59 +38,6 @@ const Tweetbox = () => {
   const [otpVerified, setOtpVerified] = useState(false);
   const { t } = useTranslation(); // Access the translation function
   const [gestureStartTime, setGestureStartTime] = useState(null); // For tracking triple taps
-
-  // Video Gesture Controls
-  const handleGesture = (e) => {
-    if (!videoRef.current) return;
-
-    const rect = videoRef.current.getBoundingClientRect();
-    const touchX = e.touches[0].clientX - rect.left;
-    const touchY = e.touches[0].clientY - rect.top;
-    const touchWidth = rect.width;
-    const touchHeight = rect.height;
-
-    const isLeft = touchX < touchWidth / 3;
-    const isRight = touchX > (2 * touchWidth) / 3;
-    const isCenter = !isLeft && !isRight;
-
-    // Gesture timing for triple tap
-    const now = Date.now();
-    if (gestureStartTime && now - gestureStartTime < 500) {
-      handleTripleTap(isLeft, isRight, isCenter);
-      setGestureStartTime(null);
-      return;
-    }
-
-    setGestureStartTime(now);
-
-    // Single or double tap logic
-    e.preventDefault();
-    if (isCenter) {
-      videoRef.current.paused
-        ? videoRef.current.play()
-        : videoRef.current.pause(); // Single tap to pause/play
-    } else if (isRight) {
-      videoRef.current.currentTime += 10; // Double-tap forward
-    } else if (isLeft) {
-      videoRef.current.currentTime -= 10; // Double-tap backward
-    }
-  };
-
-  const handleTripleTap = (isLeft, isRight, isCenter) => {
-    if (isCenter) {
-      // Triple-tap center: Switch to next video
-      toast.info("Switching to next video (simulate).");
-    } else if (isRight) {
-      // Triple-tap right: Close website
-      toast.error("Closing website...");
-      setTimeout(() => {
-        window.close();
-      }, 1000);
-    } else if (isLeft) {
-      // Triple-tap left: Show comments
-      toast.info("Showing comments section...");
-    }
-  };
 
   const startRecording = () => {
   
